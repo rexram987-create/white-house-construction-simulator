@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>White House Construction Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">White House Simulator</div>
+      <a href="#timeline">Timeline</a>
+      <a href="#stage-card">Historical Info</a>
+      <a href="#future">Future 3D</a>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">1792–Present</p>
+      <h1>White House Construction Simulator</h1>
+      <p class="subtitle">
+        An interactive historical timeline and future 3D reconstruction of the construction,
+        burning, restoration, and expansion of the White House.
+      </p>
+      <a class="cta" href="#timeline">Start Exploring</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="intro section">
+      <h2>Project Vision</h2>
+      <p>
+        This project begins as an interactive historical museum page. In future versions,
+        it will include a 3D reconstruction showing the White House being built step by step.
+      </p>
+    </section>
+
+    <section id="timeline" class="section">
+      <h2>Construction Timeline</h2>
+      <p class="section-note">Choose a year or period to reveal historical details.</p>
+      <div id="timeline-buttons" class="timeline-buttons"></div>
+    </section>
+
+    <section id="stage-card" class="stage-card section" aria-live="polite">
+      <p class="eyebrow" id="stage-period">Select a stage</p>
+      <h2 id="stage-title">The story begins in 1792</h2>
+      <p id="stage-description">
+        Use the timeline above to explore the early construction, burning, restoration,
+        and later expansions of the White House.
+      </p>
+      <dl class="facts">
+        <div><dt>President</dt><dd id="stage-president">—</dd></div>
+        <div><dt>Architect / Key Figure</dt><dd id="stage-figure">—</dd></div>
+        <div><dt>Main Theme</dt><dd id="stage-theme">—</dd></div>
+      </dl>
+    </section>
+
+    <section id="future" class="section future-grid">
+      <article>
+        <h2>Future 3D Layer</h2>
+        <p>
+          The next major upgrade will add a simple Three.js model with layers for foundations,
+          walls, roof, windows, fire damage, and restoration.
+        </p>
+      </article>
+      <article class="placeholder-model">
+        <div class="model-block base"></div>
+        <div class="model-block walls"></div>
+        <div class="model-block roof"></div>
+        <p>3D preview placeholder</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built as an educational historical reconstruction project.</p>
+  </footer>
+
+  <script src="data/timeline.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
