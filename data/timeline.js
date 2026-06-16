@@ -1,66 +1,66 @@
 const timelineStages = [
   {
     period: "1791–1792",
-    title: "Choosing the Site and Planning the President's House",
-    description: "George Washington selected the site for the future President's House in the new federal city. Irish-born architect James Hoban won the design competition and shaped the original plan.",
-    president: "George Washington",
-    figure: "James Hoban",
-    theme: "Planning and design"
+    title: "בחירת האתר ותכנון בית הנשיא",
+    description: "ג׳ורג׳ וושינגטון בחר את האתר לבית הנשיא בעיר הפדרלית החדשה. האדריכל ג׳יימס הובאן, שנולד באירלנד, זכה בתחרות התכנון ועיצב את המבנה המקורי.",
+    president: "ג׳ורג׳ וושינגטון",
+    figure: "ג׳יימס הובאן",
+    theme: "תכנון ועיצוב ראשוני"
   },
   {
-    period: "October 13, 1792",
-    title: "Cornerstone and Beginning of Construction",
-    description: "Construction began with the laying of the cornerstone. The building was planned as the official residence of the President of the United States.",
-    president: "George Washington",
-    figure: "James Hoban",
-    theme: "Foundation and early construction"
+    period: "13 באוקטובר 1792",
+    title: "הנחת אבן הפינה ותחילת הבנייה",
+    description: "בניית בית הנשיא החלה עם הנחת אבן הפינה. המבנה תוכנן כמעון הרשמי של נשיא ארצות הברית.",
+    president: "ג׳ורג׳ וושינגטון",
+    figure: "ג׳יימס הובאן",
+    theme: "יסודות ותחילת הבנייה"
   },
   {
     period: "1793–1797",
-    title: "Walls, Stonework, and Main Structure",
-    description: "Workers raised the main walls using Aquia Creek sandstone. The early building process combined skilled labor, enslaved labor, immigrant workers, and local materials.",
-    president: "George Washington / John Adams",
-    figure: "Builders and stonecutters",
-    theme: "Exterior structure"
+    title: "קירות, עבודות אבן והמבנה המרכזי",
+    description: "הפועלים הקימו את הקירות המרכזיים בעזרת אבן חול מאזור אקוויה קריק. תהליך הבנייה שילב בעלי מלאכה מיומנים, עובדים משועבדים, מהגרים וחומרי בנייה מקומיים.",
+    president: "ג׳ורג׳ וושינגטון / ג׳ון אדמס",
+    figure: "בנאים וסתתי אבן",
+    theme: "הקמת המבנה החיצוני"
   },
   {
     period: "1798–1800",
-    title: "Interior Work and First Occupancy",
-    description: "The house was not fully finished, but it became ready enough for President John Adams to move in during 1800. It was then known as the President's House.",
-    president: "John Adams",
-    figure: "John and Abigail Adams",
-    theme: "Interior completion"
+    title: "עבודות פנים והכניסה הראשונה למבנה",
+    description: "הבית עדיין לא היה מושלם לגמרי, אך בשנת 1800 היה מוכן דיו כדי שהנשיא ג׳ון אדמס יעבור אליו. באותה תקופה הוא נקרא בית הנשיא.",
+    president: "ג׳ון אדמס",
+    figure: "ג׳ון ואביגייל אדמס",
+    theme: "השלמת פנים ראשונית"
   },
   {
-    period: "August 24, 1814",
-    title: "Burning of Washington",
-    description: "During the War of 1812, British forces entered Washington and set fire to major public buildings, including the President's House. The exterior walls survived, but the interior was severely damaged.",
-    president: "James Madison",
-    figure: "Dolley Madison",
-    theme: "Destruction and survival"
+    period: "24 באוגוסט 1814",
+    title: "שריפת וושינגטון",
+    description: "במהלך מלחמת 1812 נכנסו כוחות בריטיים לוושינגטון והעלו באש מבני ציבור מרכזיים, ובהם בית הנשיא. הקירות החיצוניים שרדו, אך פנים המבנה נפגע קשות.",
+    president: "ג׳יימס מדיסון",
+    figure: "דולי מדיסון",
+    theme: "חורבן והישרדות"
   },
   {
     period: "1815–1817",
-    title: "Restoration After the Fire",
-    description: "James Hoban returned to oversee reconstruction. The restored building preserved much of the original exterior form while repairing the burned interior.",
-    president: "James Madison / James Monroe",
-    figure: "James Hoban",
-    theme: "Restoration"
+    title: "שיקום לאחר השריפה",
+    description: "ג׳יימס הובאן חזר לפקח על השיקום. המבנה המשוקם שמר במידה רבה על צורתו החיצונית המקורית, לצד תיקון הפנים שנשרף.",
+    president: "ג׳יימס מדיסון / ג׳יימס מונרו",
+    figure: "ג׳יימס הובאן",
+    theme: "שיקום ושחזור"
   },
   {
     period: "1902",
-    title: "Theodore Roosevelt and the West Wing",
-    description: "Theodore Roosevelt moved executive offices out of the family residence and helped establish the modern West Wing, changing how the White House functioned.",
-    president: "Theodore Roosevelt",
-    figure: "Charles Follen McKim",
-    theme: "Modern executive offices"
+    title: "תאודור רוזוולט והאגף המערבי",
+    description: "תאודור רוזוולט העביר את משרדי הנשיאות אל מחוץ לאזור המגורים המשפחתי וסייע ביצירת האגף המערבי המודרני, ששינה את אופן פעולת הבית הלבן.",
+    president: "תאודור רוזוולט",
+    figure: "צ׳ארלס פולן מקים",
+    theme: "משרדי נשיאות מודרניים"
   },
   {
     period: "1948–1952",
-    title: "Truman Reconstruction",
-    description: "The interior structure of the White House was found to be dangerously weakened. Under Harry S. Truman, the building was gutted internally and rebuilt with a modern steel frame while preserving the exterior walls.",
-    president: "Harry S. Truman",
-    figure: "Lorenzo Winslow",
-    theme: "Structural reconstruction"
+    title: "שיפוץ טרומן",
+    description: "המבנה הפנימי של הבית הלבן התגלה כמסוכן מבחינה הנדסית. בתקופת הארי ס׳ טרומן רוקן המבנה מבפנים ונבנה מחדש עם שלד פלדה מודרני, תוך שמירה על הקירות החיצוניים.",
+    president: "הארי ס׳ טרומן",
+    figure: "לורנצו וינסלו",
+    theme: "בנייה הנדסית מחדש"
   }
 ];
